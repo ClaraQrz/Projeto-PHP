@@ -1,0 +1,76 @@
+CREATE DATABASE SilCroche
+-- USE SilCroche
+
+-- INSERT INTO clientes (username, email, password)
+-- VALUES
+-- ('admingirl', 'supportemail@exemplo.com', '1234');
+
+CREATE TABLE categorias (
+    categoria_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL UNIQUE
+);
+
+CREATE TABLE clientes(
+    cliente_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    registration_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE produtos(
+    produto_id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    preco DECIMAL(10,2),
+    descri TEXT,
+    estoque INT DEFAULT 0,
+    categoria_id INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (categoria_id) REFERENCES categorias(categoria_id)
+);
+
+CREATE TABLE pedidos (
+    pedidos_id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente_id INT,
+    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    preco_total DECIMAL(10, 2) NOT NULL,
+    status ENUM('pending', 'shipped', 'delivered', 'canceled') DEFAULT 'pending',
+    FOREIGN KEY (cliente_id) REFERENCES clientes(cliente_id)
+);
+CREATE TABLE pedir_produtos (
+    pedir_produto_id INT AUTO_INCREMENT PRIMARY KEY,
+    pedidos_id INT,
+    produto_id INT,
+    estoque INT NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (pedidos_id) REFERENCES pedidos(pedidos_id),
+    FOREIGN KEY (produto_id) REFERENCES produtos(produto_id)
+);
+
+CREATE TABLE carrinho_de_compras (
+    carrinho_id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente_id INT,
+    produto_id INT,
+    estoque INT NOT NULL,
+    date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(cliente_id),
+    FOREIGN KEY (produto_id) REFERENCES produtos(produto_id)
+);
+
+INSERT INTO categorias (nome) 
+VALUES 
+    ('Chaveiros'),
+    ('Bolsas'),
+    ('Bonecos'),
+    ('Souplast'),
+    ('Corredores de Mesa'),
+    ('Prendendor de Cortina');
+
+INSERT INTO produtos (nome, preco, descri, estoque, categoria_id) 
+VALUES 
+    ('Polvo de Croche', 25.99, 'Um polvo fofo de croche com um chapeuzinho', 10, 3),
+    ('Bolsa Branca', 40.99, 'Saco de malha com 22 cm de largura, 15 cm de altura e 8 cm de espessura', 7, 2),
+    ('Chaveiro do Stitch', 15.99, 'Chaveiro do personagem Stitch', 15, 1),
+    ('Souplast delicado', 53.99, 'Souplast branco e dourado de 39cm', 3, 4),
+    ('Corredor de Mesa de Florzinha', 60.99, 'Corredor de Mesa! O modelo e a cor a sua escolha!', 1, 5);
