@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        // Adiciona animação quando o input perde o foco (e o valor está vazio)
+        document.addEventListener("DOMContentLoaded", function() {
+            const inputs = document.querySelectorAll('.form-container input');
+        
+            inputs.forEach(input => {
+                // Evento de foco
+                input.addEventListener('focus', function() {
+                    input.classList.remove('animate'); // Remove a animação de shake caso tenha sido aplicada
+                });
+        
+                // Evento de desfocar (quando o usuário sai do input)
+                input.addEventListener('blur', function() {
+                    if (input.value === "") {  // Verifica se o campo está vazio
+                        input.classList.add('animate'); // Aplica a animação de shake
+                    }
+                });
+            });
+        });
+        </script>
 </head>
 <body>
     <div class="background">
@@ -31,14 +52,14 @@
             <h2>Cadastro</h2>
             <p>Crie sua conta e faça seu pedido de nossas artes!</p>
             <form action="processar_cadastro.php" method="POST">
-                <label for="nome">Usuário</label>
-                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                <label for="username">Usuário</label>
+                <input type="text" id="nome" name="username" placeholder="Nome" required>
 
                 <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" placeholder="seuemail@gmail.com" required>
 
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha" placeholder="••••••••" required>
+                <label for="password">Senha</label>
+                <input type="password" id="senha" name="password" placeholder="••••••••" required>
 
                 <label class="checkbox-container">
                     <input type="checkbox" name="ofertas">
@@ -58,7 +79,7 @@
                         <a href="https://www.instagram.com/sil_artecomamor/"><img src="imagens/img insta.png" alt="Instagram" height="40" width="40"></a>
                     </span>
                     <span>
-                        <img src="imagens/img zap.png" alt="Whatsapp">
+                        <a href="<?php echo $link_whatsapp; ?>"><img src="imagens/img zap.png" alt="Whatsapp">
                     </span>
                 </div>
             </div>
