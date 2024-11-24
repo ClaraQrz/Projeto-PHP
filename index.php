@@ -41,7 +41,7 @@
                     <img src="imagens/img config.png" alt="Configurações">
                 </span>
                 <span>
-                    <img src="informaçõesSilCroche2.html" alt="Configurações">
+                    <img src="informaçõesSilCroche2.html" alt="Sobre Nós">
                 </span>
             </div>
         </header>
