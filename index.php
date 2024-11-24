@@ -25,7 +25,30 @@
                 });
             });
         });
-        </script>
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Array com as URLs das imagens
+            const imagens = [
+                "imagens/img0.jpg",
+                "imagens/img1.png",  
+                "imagens/img2_.png",  
+                "imagens/img3_.png"   
+            ];
+
+            let indiceImagem = 0;  // Índice inicial da imagem
+
+            // Função para alternar a imagem
+            function trocarImagem() {
+                indiceImagem = (indiceImagem + 1) % imagens.length; // Incrementa o índice e faz a contagem circular
+                const imagemElemento = document.getElementById("imagem-alternativa"); // Pega a referência da imagem
+                imagemElemento.src = imagens[indiceImagem]; // Troca a imagem
+            }
+
+            // Chama a função para alternar a imagem a cada 3 segundos (3000 milissegundos)
+            setInterval(trocarImagem, 3000);
+        });
+    </script>
+
 </head>
 <body>
     <div class="background">
@@ -38,9 +61,7 @@
                     <img src="imagens/img user.png" alt="User" width="28" height="28">
                 </span>
                 <span>
-                    <img src="imagens/img config.png" alt="Configurações">
-                </span>
-                <span>
+                    <img src="informaçõesSilCroche2.html" alt="Configurações">
                     <img src="informaçõesSilCroche2.html" alt="Sobre Nós">
                 </span>
             </div>
@@ -48,7 +69,7 @@
     </div>
     <div class="form-cadastro">
         <div class="imagem">
-            <img src="imagens/img login.png" alt="Imagem loja">
+            <img id="imagem-alternativa" src="imagens/img0.jpg" alt="Imagem loja" />
         </div>
 
         <div class="form-container">
@@ -64,11 +85,6 @@
                 <label for="password">Senha</label>
                 <input type="password" id="senha" name="password" placeholder="••••••••" required>
 
-                <label class="checkbox-container">
-                    <input type="checkbox" name="ofertas">
-                    <span>Desejo receber ofertas via e-mail</span>
-                </label>
-
                 <button type="submit">Cadastrar</button>
             </form>
         </div>
@@ -77,12 +93,12 @@
         <div class="rodapé">
             <div class="social">
                 <h3>Redes Sociais</h3>
-                <div class="icon social">
+                <div class="icon-social">
                     <span>
-                        <a href="https://www.instagram.com/sil_artecomamor/"><img src="imagens/img insta.png" alt="Instagram" height="40" width="40"></a>
+                        <a href="https://www.instagram.com/sil_artecomamor/"><img src="imagens/insta icon.png" alt="Instagram" height="35" width="35"></a>
                     </span>
                     <span>
-                        <a href="<?php echo $link_whatsapp; ?>"><img src="imagens/img zap.png" alt="Whatsapp">
+                        <a href="<?php echo $link_whatsapp; ?>"><img src="imagens/img zap.png" alt="Whatsapp"></a>
                     </span>
                 </div>
             </div>
@@ -90,8 +106,7 @@
                 <h3>Developers</h3>
                 <p>Ana Clara de Queiroz</p>
                 <p>Maria Luiza Vidal</p>
-                <p>Daniela Gomes</p>
-                <p>Thais</p>
+                <p>Daniela Gomes e Thais</p>
             </div>
         </div>
     </footer>
