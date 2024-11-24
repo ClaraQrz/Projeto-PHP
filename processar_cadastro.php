@@ -1,3 +1,4 @@
+<!-- Registro de novos usuários no banco de dados -->
 <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $username = $_POST['username'];

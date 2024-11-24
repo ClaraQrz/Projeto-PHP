@@ -1,3 +1,4 @@
+<!-- Autentificação login -->
 <?php
     include("processar_login.php");
     if(isset($_POST['submit'])){

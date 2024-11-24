@@ -1,3 +1,4 @@
+<!-- Autentificação login com conexão com o banco de dados -->
 <?php
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $email = $_POST['email'];
@@ -12,8 +13,8 @@
             header("Location:main.php");
         } else{
             echo '<script>
-                window.location.href = "login_index.php";
-                alert("Login failed. Invalid email or password.");
+                window.location.href = "index.php";
+                alert("E-mail ou senha inválida");
             </script>';
         }
     }
