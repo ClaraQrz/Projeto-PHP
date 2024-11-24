@@ -40,6 +40,9 @@
                 <span>
                     <img src="imagens/img config.png" alt="Configurações">
                 </span>
+                <span>
+                    <img src="informaçõesSilCroche2.html" alt="Configurações">
+                </span>
             </div>
         </header>
     </div>
