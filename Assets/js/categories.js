@@ -1,3 +1,4 @@
+//Scrip para mudar e selecionar as categorias
 document.querySelectorAll('.categories button').forEach(button => {
     button.addEventListener('click', function () {
         const category = this.getAttribute('data-category'); // Categoria selecionada

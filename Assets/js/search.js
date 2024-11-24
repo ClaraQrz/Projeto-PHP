@@ -1,3 +1,4 @@
+//Script para pesquisa de itens
 document.getElementById('search-bar').addEventListener('input', function () {
     const searchValue = this.value.toLowerCase(); // Texto digitado, convertido para minúsculas
     const products = document.querySelectorAll('.produto'); // Seleciona todos os produtos
