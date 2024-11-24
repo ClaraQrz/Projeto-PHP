@@ -85,7 +85,7 @@
                 <input type="password" id="senha" name="password" placeholder="••••••••" required>
 
                 <button type="submit">Cadastrar</button>
-                <p class="cadastro"><a href="./login.php">Vá para o login!</a></p>
+                <p class="cadastro"><a href="./index.php">Vá para o login!</a></p>
             </form>
         </div>
     </div>

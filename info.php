@@ -74,6 +74,10 @@
             line-height: 1.6;
             font-size: 1.1em;
         }
+        .descrição{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
         footer {
             position:relative;
             bottom: 0;    
@@ -148,23 +152,23 @@
             <h1>Sobre nós!</h1>
         </div>
         <section>
-            <h2 class="title">O Surgimento de Sil Crochê</h2>
-            <p>  Sil Crochê é uma loja de produtos artesanais de crochê que foi criada em 2016, quando sua fundadora, Silvanete, decidiu misturar suas habilidades de crochê com a paixão por criar peças únicas. A história de Sil Crochê começou em sua pequena oficina, onde Silvana passava horas criando peças detalhadas com fios coloridos e amor por cada ponto.</p>
+            <h2 class="title">O Surgimento de Sil Crochê</h2><br>
+            <p class="descrição">  Sil Crochê é uma loja de produtos artesanais de crochê que foi criada em 2016, quando sua fundadora, Silvanete, decidiu misturar suas habilidades de crochê com a paixão por criar peças únicas. A história de Sil Crochê começou em sua pequena oficina, onde Silvana passava horas criando peças detalhadas com fios coloridos e amor por cada ponto.</p>
         </section>
         
         <section>
-            <h2 class="title">Como Tudo Começou</h2>
-            <p>  Em 2016, após enfrentar desafios pessoais e procurar uma maneira de expressar sua criatividade, Silvanete decidiu lançar uma linha de produtos de crochê feitos à mão. A inspiração veio de suas próprias lembranças de infância, onde sua mãe a ensinou a arte da criação em crochê, e sempre teve um lugar especial em seu coração. Assim, Sil Croche nasceu, com a ideia de criar peças únicas que transmitissem carinho e qualidade em cada detalhe.</p>
+            <h2 class="title">Como Tudo Começou</h2><br>
+            <p class="descrição">  Em 2016, após enfrentar desafios pessoais e procurar uma maneira de expressar sua criatividade, Silvanete decidiu lançar uma linha de produtos de crochê feitos à mão. A inspiração veio de suas próprias lembranças de infância, onde sua mãe a ensinou a arte da criação em crochê, e sempre teve um lugar especial em seu coração. Assim, Sil Croche nasceu, com a ideia de criar peças únicas que transmitissem carinho e qualidade em cada detalhe.</p>
         </section>
         
         <section>
-            <h2 class="title">O Crescimento da Marca</h2>
-            <p>  Desde seu início, Sil Crochê encantou muitas pessoas com suas criações exclusivas, conquistando um público fiel e apaixonado. A marca cresceu com o tempo, e hoje é conhecida por produtos de alta qualidade, feitos com tecidos naturais e sustentáveis. Cada peça é feita com um cuidado especial, o que garante a durabilidade e o toque artesanal que tornou Sil Croche tão especial.</p>
+            <h2 class="title">O Crescimento da Marca</h2><br>
+            <p class="descrição">  Desde seu início, Sil Crochê encantou muitas pessoas com suas criações exclusivas, conquistando um público fiel e apaixonado. A marca cresceu com o tempo, e hoje é conhecida por produtos de alta qualidade, feitos com tecidos naturais e sustentáveis. Cada peça é feita com um cuidado especial, o que garante a durabilidade e o toque artesanal que tornou Sil Croche tão especial.</p>
         </section>
         
         <section>
-            <h2 class="title">O Legado de Sil Crochê</h2>
-            <p>  Hoje, Sil Crochê tem o objetivo de se tornar uma referência no mundo dos produtos artesanais. A marca mantém sua essência de criar com amor e dedicação, além de continuar a inspirar novos empreendedores e artesãos. A história de Sil Crochê é uma prova de que, com paixão e dedicação, é possível transformar um sonho em realidade, impactando positivamente a vida de muitas pessoas.</p>
+            <h2 class="title">O Legado de Sil Crochê</h2><br>
+            <p class="descrição">  Hoje, Sil Crochê tem o objetivo de se tornar uma referência no mundo dos produtos artesanais. A marca mantém sua essência de criar com amor e dedicação, além de continuar a inspirar novos empreendedores e artesãos. A história de Sil Crochê é uma prova de que, com paixão e dedicação, é possível transformar um sonho em realidade, impactando positivamente a vida de muitas pessoas.</p>
         </section>
     </section>
 
