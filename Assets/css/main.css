@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .carrinho-title{
+        font-size: 12px;
+    }
+    .carrinho-vazio{
+        font-size: 12px;
+        text-align: center;
+    }
+    .finalizacao{
+        font-size: 12px;
+    }
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Gabriela;
+    box-sizing: border-box;
+}
+body {
+    background: #b7eaf0e7;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color:  #048083;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.background{
+    display: flex;
+    background-color:  #048083;
+    padding: 10px;
+}
+.store{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #048083;
+    width: 25%;
+}
+.store h1 {
+    font-size: 150%;
+}
+.store p {
+    font-size: 88%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #75DFEB;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.search-container input[type="text"] {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.icons {
+    display: flex;
+    gap: 15px;
+}
+.icons span {
+    cursor: pointer;
+}
+.icons img {
+    width: 28px;
+    height: 28px;
+    align-content: center;
+}
+.categories {
+    text-align: center;
+    background-color:  #048083;
+    border-top: rgba(0, 0, 0, 0.185) 1px solid;
+    padding-top: 8px;
+}
+.categories button {
+    all: unset;
+    padding: 8px 15px;
+    background-color: #048083;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.categories button:hover {
+    background-color:#E0FFFF;
+}
+.loja-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 12px; 
+    padding: 10px;
+    margin-left: 20px;
+}
+.produto{
+    background-color: #8cdbe4;
+    padding: 10px;
+    text-align: center;
+    height: 230px;
+    width: 140px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.produto img{
+    max-width: 110px;
+    border-radius: 20px;
+}
+.descrição{
+    font-size: 13px;
+}
+.descrição h3{
+    height: 38px;
+    align-content: center;
+}
+.cart{
+    width: 30px;
+}
+main{
+    width:80%;
+    background-color: #b7eaf0e7;
+    position: relative;
+    top: 130px;
+}
+aside {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    background-color: #E0FFFF;
+    border: rgba(0, 0, 0, 0.507) 1px solid;
+    position: fixed;
+    right: 0;
+    top: 130px;
+}
+.items-carrinho{
+    height: 300px;
+    overflow-y: auto;
+}
+.carrinho-title{
+    background-color: #8cdbe4;
+    padding: 20px;
+    text-align: center;
+    color: black;   
+}
+.carrinho{
+    display: flex;
+    border: black 1px solid;
+    margin: 10px;
+}
+.carrinho-vazio{
+    text-align: center;
+}
+.carrinho img{
+    display:flex;
+    width: 60px;
+    height: 60px; 
+    object-fit: cover; 
+    margin-right: 10px;
+}
+.carrinho-descricao{
+    font-size: 12px;
+    align-content: center;
+}
+.footer-aside{
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.total{
+    margin:10px;
+    padding-bottom: 10px;
+    text-align: right;
+    border-bottom: black 1px solid;
+}
+.finalizacao{
+    max-width:100% ;
+    display: flex;
+}
+.finalizar{
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    padding: 3px;
+}
+.apagar{
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    padding: 3px;
+}
+
