@@ -18,6 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sil Crochê - Arte com amor</title>
     <link rel="stylesheet" href="./Assets/css/main.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
     <!-- Navegação e Header do site -->
@@ -34,7 +35,7 @@
                     </div>
                     <div class="icons">
                         <span>
-                            <img src="./images/img_user.png" alt="User" width="28" height="28">
+                            <a href="./index.php"><img src="./images/imagens/img user.png" alt="User" width="28" height="28"></a>
                         </span>
                         <span>
                         <a href="info.php"><img src="./images/imagens/img info.png" alt="Sobre Nós" width="28"></a>
