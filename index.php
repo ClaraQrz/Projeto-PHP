@@ -106,7 +106,7 @@
                 <h3>Developers</h3>
                 <p>Ana Clara de Queiroz</p>
                 <p>Maria Luiza Vidal</p>
-                <p>Daniela Gomes e Thais</p>
+                <p>Daniela Gomes e Thais Marques</p>
             </div>
         </div>
     </footer>
