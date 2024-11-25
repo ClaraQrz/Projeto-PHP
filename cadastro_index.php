@@ -98,7 +98,7 @@
                 <h3>Redes Sociais</h3>
                 <div class="icon-social">
                 <span>
-                        <a href="https://www.instagram.com/sil_artecomamor/"><img src="./Assets/images/imagens/insta icon.png" alt="Instagram" height="30"></a>
+                        <a href="https://www.instagram.com/sil_artecomamor/" target="_blank"><img src="./Assets/images/imagens/insta icon.png" alt="Instagram" height="30"></a>
                     </span>
                     <span>
                         <!-- Mensagem via whatsapp -->

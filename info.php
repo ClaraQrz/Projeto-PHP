@@ -154,17 +154,17 @@
         </div>
         <section>
             <h2 class="title">O Surgimento de Sil Crochê</h2><br>
-            <p class="descrição">  Sil Crochê é uma loja de produtos artesanais de crochê que foi criada em 2016, quando sua fundadora, Silvanete, decidiu misturar suas habilidades de crochê com a paixão por criar peças únicas. A história de Sil Crochê começou em sua pequena oficina, onde Silvana passava horas criando peças detalhadas com fios coloridos e amor por cada ponto.</p>
+            <p class="descrição">  Sil Crochê é uma loja de produtos artesanais de crochê que foi criada em 2016, quando sua fundadora, Silvonete, decidiu misturar suas habilidades de crochê com a paixão por criar peças únicas. A história de Sil Crochê começou em sua pequena oficina, onde Sil passava horas criando peças detalhadas com fios coloridos e amor por cada ponto.</p>
         </section>
         
         <section>
             <h2 class="title">Como Tudo Começou</h2><br>
-            <p class="descrição">  Em 2016, após enfrentar desafios pessoais e procurar uma maneira de expressar sua criatividade, Silvanete decidiu lançar uma linha de produtos de crochê feitos à mão. A inspiração veio de suas próprias lembranças de infância, onde sua mãe a ensinou a arte da criação em crochê, e sempre teve um lugar especial em seu coração. Assim, Sil Croche nasceu, com a ideia de criar peças únicas que transmitissem carinho e qualidade em cada detalhe.</p>
+            <p class="descrição">  Após enfrentar desafios pessoais e procurar uma maneira de expressar sua criatividade, Silvonete decidiu lançar uma linha de produtos de crochê feitas à mão. A inspiração veio de suas próprias lembranças de infância, onde sua mãe a ensinou a arte da criação em crochê, e sempre teve um lugar especial em seu coração. Assim, Sil Croche nasceu, com a ideia de criar peças únicas que transmitissem carinho e qualidade em cada detalhe.</p>
         </section>
         
         <section>
             <h2 class="title">O Crescimento da Marca</h2><br>
-            <p class="descrição">  Desde seu início, Sil Crochê encantou muitas pessoas com suas criações exclusivas, conquistando um público fiel e apaixonado. A marca cresceu com o tempo, e hoje é conhecida por produtos de alta qualidade, feitos com tecidos naturais e sustentáveis. Cada peça é feita com um cuidado especial, o que garante a durabilidade e o toque artesanal que tornou Sil Croche tão especial.</p>
+            <p class="descrição">  Desde seu início, Sil Crochê encantou muitas pessoas com suas criações exclusivas, conquistando um público fiel e apaixonado. A marca cresceu com o tempo, e hoje é conhecida por produtos de alta qualidade, feitos com tecidos naturais e sustentáveis. Cada peça é feita com um cuidado especial, o que garante a durabilidade e o toque artesanal que a tornou tão especial.</p>
         </section>
         
         <section>
@@ -180,7 +180,7 @@
                 <h3>Redes Sociais</h3>
                 <div class="icon-social">
                     <span>
-                        <a href="https://www.instagram.com/sil_artecomamor/"><img src="./Assets/images/imagens/insta icon.png" alt="Instagram" height="30"></a>
+                        <a href="https://www.instagram.com/sil_artecomamor/" target="_blank"><img src="./Assets/images/imagens/insta icon.png" alt="Instagram" height="30"></a>
                     </span>
                     <span>
                         <!-- Mensagem via whatsapp -->
