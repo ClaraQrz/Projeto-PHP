@@ -35,10 +35,10 @@
                     </div>
                     <div class="icons">
                         <span>
-                            <a href="./index.php"><img src="./images/imagens/img user.png" alt="User" width="28" height="28"></a>
+                            <a href="./index.php"><img src="./Assets/images/imagens/img user.png" alt="User" width="28" height="28"></a>
                         </span>
                         <span>
-                        <a href="info.php"><img src="./images/imagens/img info.png" alt="Sobre Nós" width="28"></a>
+                        <a href="info.php"><img src="./Assets/images/imagens/img info.png" alt="Sobre Nós" width="28"></a>
                         </span>
                     </div>
                 </header>
@@ -60,43 +60,43 @@
             <div id="products" class="loja-container">
             <!-- Array Multidimensional com todos os produtos da loja -->
             <?php
-
-                $items=array(['imagem'=>'./store/Produto1.png','nome'=>'Segura Cortina','preço'=>'45,00','categoria' => 'prendedor'],
-                ['imagem'=>'./store/Produto2.png','nome'=>'Souplast Azul','preço'=>'120,00','categoria' => 'souplast'],
-                ['imagem'=>'./store/Produto3.png','nome'=>'Bolsa Maré','preço'=>'95,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto4.png','nome'=>'Bolsa Ana','preço'=>'98,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto5.png','nome'=>'Mochila Bela','preço'=>'160,00','categoria' => 'mochila'],
-                ['imagem'=>'./store/Produto6.png','nome'=>'Bolsa Bee','preço'=>'60,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto7.png','nome'=>'Bolsa Ivie','preço'=>'70,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto8.png','nome'=>'Mochila Itália','preço'=>'155,00','categoria' => 'mochila'],
-                ['imagem'=>'./store/Produto9.png','nome'=>'Boneca Ana','preço'=>'150,00','categoria' => 'boneco'],
-                ['imagem'=>'./store/Produto10.png','nome'=>'Mochila Luiza','preço'=>'180,00','categoria' => 'mochila'],
-                ['imagem'=>'./store/Produto11.png','nome'=>'Bolsa Malu','preço'=>'75,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto12.png','nome'=>'Conjunto praia','preço'=>'120,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto13.png','nome'=>'Souplast Marrom','preço'=>'110,00','categoria' => 'souplast'],
-                ['imagem'=>'./store/Produto14.png','nome'=>'Bichinho','preço'=>'130,00','categoria' => 'boneco'],
-                ['imagem'=>'./store/Produto15.png','nome'=>'Bolsa Duda','preço'=>'70,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto16.png','nome'=>'Bolsa Danni','preço'=>'110,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto17.png','nome'=>'Mini Hipopótamo','preço'=>'45,00','categoria' => 'boneco'],
-                ['imagem'=>'./store/Produto18.png','nome'=>'Mini Macaco','preço'=>'45,00','categoria' => 'boneco'],
-                ['imagem'=>'./store/Produto19.png','nome'=>'Bonecas amigurumi','preço'=>'150,00','categoria' => 'boneco'],
-                ['imagem'=>'./store/Produto20.png','nome'=>'Ursinha','preço'=>'130,00','categoria' => 'boneco'],
-                ['imagem'=>'./store/Produto21.png','nome'=>'Chaveiro - Sapinho','preço'=>'35,00','categoria' => 'chaveiro'],
-                ['imagem'=>'./store/Produto22.png','nome'=>'Chaveiro - Cachorro','preço'=>'35,00','categoria' => 'chaveiro'],
-                ['imagem'=>'./store/Produto23.png','nome'=>'Bolsa Letícia','preço'=>'180,00','categoria' => 'bolsa'],
-                ['imagem'=>'./store/Produto25.png','nome'=>'Peregrino','preço'=>'150,00','categoria' => 'boneco'],
+                $items=array(['imagem'=>'./Assets/images/store/Produto1.png','nome'=>'Segura Cortina','preço'=>'45,00','categoria' => 'prendedor'],
+                ['imagem'=>'./Assets/images/store/Produto2.png','nome'=>'Souplast Azul','preço'=>'120,00','categoria' => 'souplast'],
+                ['imagem'=>'./Assets/images/store/Produto3.png','nome'=>'Bolsa Maré','preço'=>'95,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto4.png','nome'=>'Bolsa Ana','preço'=>'98,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto5.png','nome'=>'Mochila Bela','preço'=>'160,00','categoria' => 'mochila'],
+                ['imagem'=>'./Assets/images/store/Produto6.png','nome'=>'Bolsa Bee','preço'=>'60,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto7.png','nome'=>'Bolsa Ivie','preço'=>'70,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto8.png','nome'=>'Mochila Itália','preço'=>'155,00','categoria' => 'mochila'],
+                ['imagem'=>'./Assets/images/store/Produto9.png','nome'=>'Boneca Ana','preço'=>'150,00','categoria' => 'boneco'],
+                ['imagem'=>'./Assets/images/store/Produto10.png','nome'=>'Mochila Luiza','preço'=>'180,00','categoria' => 'mochila'],
+                ['imagem'=>'./Assets/images/store/Produto11.png','nome'=>'Bolsa Malu','preço'=>'75,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto12.png','nome'=>'Conjunto praia','preço'=>'120,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto13.png','nome'=>'Souplast Marrom','preço'=>'110,00','categoria' => 'souplast'],
+                ['imagem'=>'./Assets/images/store/Produto14.png','nome'=>'Bichinho','preço'=>'130,00','categoria' => 'boneco'],
+                ['imagem'=>'./Assets/images/store/Produto15.png','nome'=>'Bolsa Duda','preço'=>'70,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto16.png','nome'=>'Bolsa Danni','preço'=>'110,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto17.png','nome'=>'Mini Hipopótamo','preço'=>'45,00','categoria' => 'boneco'],
+                ['imagem'=>'./Assets/images/store/Produto18.png','nome'=>'Mini Macaco','preço'=>'45,00','categoria' => 'boneco'],
+                ['imagem'=>'./Assets/images/store/Produto19.png','nome'=>'Bonecas amigurumi','preço'=>'150,00','categoria' => 'boneco'],
+                ['imagem'=>'./Assets/images/store/Produto20.png','nome'=>'Ursinha','preço'=>'130,00','categoria' => 'boneco'],
+                ['imagem'=>'./Assets/images/store/Produto21.png','nome'=>'Chaveiro - Sapinho','preço'=>'35,00','categoria' => 'chaveiro'],
+                ['imagem'=>'./Assets/images/store/Produto22.png','nome'=>'Chaveiro - Cachorro','preço'=>'35,00','categoria' => 'chaveiro'],
+                ['imagem'=>'./Assets/images/store/Produto23.png','nome'=>'Bolsa Letícia','preço'=>'180,00','categoria' => 'bolsa'],
+                ['imagem'=>'./Assets/images/store/Produto25.png','nome'=>'Peregrino','preço'=>'150,00','categoria' => 'boneco'],
                 );
 
                 // Para cada item no array, segue o código abaixo
                 foreach($items as $key => $value){
             ?>
+
                 <div class="produto" data-category="<?php echo strtolower($value['categoria']); ?>" data-name="<?php echo strtolower($value['nome']); ?>">
                     <img src="<?php echo $value['imagem'] ?>" alt="">
                     <div class="descrição">
                         <h3><?php echo $value['nome']?></h3>
                         <p>R$ <?php echo $value['preço']?></p>
                     </div>
-                    <a href="?adicionar=<?php echo $key ?>"><img class="cart" src="./images/cart.png" alt=""></a>
+                    <a href="?adicionar=<?php echo $key ?>"><img class="cart" src="./Assets/images/cart.png" alt=""></a>
                 </div><!--div produto-->
             <?php
                 } //Fechamento foreach

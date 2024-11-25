@@ -130,19 +130,19 @@
         <header>
             <div class="icons">
                 <span>
-                <a href="./index.php"><img src="./images/imagens/img user.png" alt="User" width="28" height="28"></a>
+                <a href="./index.php"><img src="./Assets/images/imagens/img user.png" alt="User" width="28" height="28"></a>
                 </span>
             </div>
         </header>
     </div>
     <div class="imagens">
-        <img src="./images/imagens/img0.jpg" class="img"
+        <img src="./Assets/images/imagens/img0.jpg" class="img"
         height="341px" 
         />
-        <img src="./images/imagens/img1.png" class="img"
+        <img src="./Assets/images/imagens/img1.png" class="img"
         height="341px" 
         />
-        <img src="./images/imagens/img2_.png" class="img"
+        <img src="./Assets/images/imagens/img2_.png" class="img"
         height="341px" 
         />
     </div>
@@ -180,7 +180,7 @@
                 <h3>Redes Sociais</h3>
                 <div class="icon-social">
                     <span>
-                        <a href="https://www.instagram.com/sil_artecomamor/"><img src="./images/imagens/insta icon.png" alt="Instagram" height="30"></a>
+                        <a href="https://www.instagram.com/sil_artecomamor/"><img src="./Assets/images/imagens/insta icon.png" alt="Instagram" height="30"></a>
                     </span>
                     <span>
                         <!-- Mensagem via whatsapp -->
@@ -189,7 +189,7 @@
                             $numero_whatsapp = "5583998319569"; // Substitir pelo número correto
                             $link_whatsapp = "https://wa.me/$numero_whatsapp?text=$mensagem";
                         ?>
-                        <a href="<?php echo $link_whatsapp; ?>" target="_blank"><img src="./images/imagens/img zap.png" alt="Whatsapp" height="30"></a>
+                        <a href="<?php echo $link_whatsapp; ?>" target="_blank"><img src="./Assets/images/imagens/img zap.png" alt="Whatsapp" height="30"></a>
                     </span>
                 </div>
             </div>
@@ -197,10 +197,10 @@
             <!-- Página Github  desenvolvedores -->
             <div class="dev">
                 <h3>Developers</h3>
-                <a href="https://github.com/DanielaGOliveira" target="_blank"><img src="./images/devs/Danni.jpg" alt="Daniela"></a>
-                <a href="https://github.com/ClaraQrz" target="_blank"><img src="./images/devs/Nana.jpg" alt="Ana Clara"></a>
-                <a href="https://github.com/neydian" target="_blank"><img src="./images/devs/Malu.jpg" alt="Maria Luiza"></a>
-                <a href="https://github.com/niquila" target="_blank"><img src="./images/devs/Thais.jpg" alt="Thaís"></a>
+                <a href="https://github.com/DanielaGOliveira" target="_blank"><img src="./Assets/images/devs/Danni.jpg" alt="Daniela"></a>
+                <a href="https://github.com/ClaraQrz" target="_blank"><img src="./Assets/images/devs/Nana.jpg" alt="Ana Clara"></a>
+                <a href="https://github.com/neydian" target="_blank"><img src="./Assets/images/devs/Malu.jpg" alt="Maria Luiza"></a>
+                <a href="https://github.com/niquila" target="_blank"><img src="./Assets/images/devs/Thais.jpg" alt="Thaís"></a>
             </div>
         </div>
     </footer>
